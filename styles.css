@@ -93,7 +93,7 @@ body {
 
 /* Movendo números de contato para o canto superior esquerdo e diminuindo espaço */
 .header-top {
-  padding: 3px 0;
+  padding: 6px 0;
   text-align: left;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 12px;
@@ -228,6 +228,159 @@ body {
 
 .hero-img:hover {
   transform: translateY(-4px);
+}
+
+/* Adicionando estilos específicos para a página A Empresa */
+.empresa-hero {
+  background: linear-gradient(135deg, var(--section-bg) 0%, var(--bg-color) 100%);
+}
+
+.about-content {
+  padding: 80px 0;
+  background: var(--bg-color);
+}
+
+.about-intro {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.about-intro h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 32px;
+  letter-spacing: -0.01em;
+}
+
+.about-intro h2 strong {
+  color: var(--accent-color);
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 24px;
+  text-align: justify;
+}
+
+.mission-vision {
+  background: var(--section-bg);
+  padding: 60px 0;
+  margin: 60px 0;
+  border-radius: 16px;
+}
+
+.mission-vision-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.mission-item {
+  background: var(--card-bg);
+  padding: 40px 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px var(--shadow);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mission-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px var(--shadow-hover);
+}
+
+.mission-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 24px;
+  color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(66, 153, 225, 0.1);
+  border-radius: 12px;
+}
+
+.mission-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.mission-item h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 16px;
+}
+
+.mission-item p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.segments-section {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.segments-section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 40px;
+  letter-spacing: -0.01em;
+}
+
+.segments-section h2 strong {
+  color: var(--accent-color);
+}
+
+.segments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.segment-item {
+  background: var(--card-bg);
+  padding: 24px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px var(--shadow);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.segment-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px var(--shadow-hover);
+}
+
+.segment-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.segment-item h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin: 0;
 }
 
 /* Seções com espaçamento otimizado */
@@ -780,6 +933,63 @@ body {
     display: block;
     margin: 2px 0;
   }
+
+  /* Responsividade para página A Empresa */
+  .about-content {
+    padding: 60px 0;
+  }
+
+  .about-intro h2 {
+    font-size: 1.8rem;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .mission-vision {
+    margin: 40px 0;
+    padding: 40px 0;
+  }
+
+  .mission-vision-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .mission-item {
+    padding: 32px 24px;
+  }
+
+  .mission-item h3 {
+    font-size: 1.2rem;
+  }
+
+  .mission-item p {
+    text-align: left;
+  }
+
+  .segments-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .segments-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+  }
+
+  .segment-item {
+    padding: 20px 12px;
+  }
+
+  .segment-icon {
+    font-size: 1.5rem;
+  }
+
+  .segment-item h4 {
+    font-size: 0.8rem;
+  }
 }
 
 @media (min-width: 769px) {
@@ -851,6 +1061,26 @@ body {
 
   .footer-logo-img {
     height: 24px;
+  }
+
+  .about-intro {
+    margin-bottom: 40px;
+  }
+
+  .about-intro h2 {
+    font-size: 1.6rem;
+  }
+
+  .intro-text {
+    font-size: 0.95rem;
+  }
+
+  .mission-vision {
+    padding: 32px 0;
+  }
+
+  .segments-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
