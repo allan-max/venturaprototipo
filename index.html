@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventura Informática - Soluções em Tecnologia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="public/joint-ventures.png">
+</head>
+<body>
+      
+    <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+        <span class="theme-icon">🌙</span>
+    </button>
+
+     
+<header class="header">
+    <div class="container">
+        <div class="header-top">
+            <div class="contact-info">
+                <span>(27) 3299-1464 / 3264-1344</span>
+                <span>(27) 9912-6323</span>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Logo-ventura-1-1.png" alt="Ventura Informática" class="logo-img">
+            </div>
+            
+            <button class="hamburger-menu" aria-label="Menu de navegação">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">HOME</a></li>
+                <li><a href="#empresa" class="nav-link">A EMPRESA</a></li>
+                <li><a href="#clientes" class="nav-link">CLIENTES</a></li>
+                <li><a href="#produtos" class="nav-link">LINHA DE PRODUTOS</a></li>
+                <li><a href="#vendas" class="nav-link">VENDAS GOVERNAMENTAIS</a></li>
+                <li><a href="#contato" class="nav-link">FALE CONOSCO</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Reorganizando seções para melhor hierarquia visual -->
+<section class="hero" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Soluções Completas em Tecnologia</h1>
+                <p>A Ventura Informática oferece as melhores soluções tecnológicas para sua empresa ou residência, com mais de 15 anos de experiência no mercado.</p>
+                <a href="#contato" class="cta-button">FALE CONOSCO</a>
+            </div>
+            <div class="hero-image">
+                <img src="public/modern-technology-office-setup-with-computers-and-.jpg" alt="Soluções Tecnológicas Ventura" class="hero-img">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services" id="empresa">
+    <div class="container">
+        <div class="section-header">
+            <h2>Nossos <strong>Serviços</strong></h2>
+            <p>Oferecemos soluções completas em tecnologia para atender todas as suas necessidades</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7Z" stroke="currentColor" stroke-width="2"/>
+                        <path d="M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3>Eletrodomésticos e Eletroportáteis</h3>
+                <p>Linha completa de eletrodomésticos das melhores marcas</p>
+            </div>
+            <div class="service-item">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="currentColor" stroke-width="2"/>
+                        <line x1="8" y1="21" x2="16" y2="21" stroke="currentColor" stroke-width="2"/>
+                        <line x1="12" y1="17" x2="12" y2="21" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3>Informática</h3>
+                <p>Computadores, notebooks e equipamentos de informática</p>
+            </div>
+            <div class="service-item">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 16.92V18a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h1.09a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3>Telefonia</h3>
+                <p>Sistemas de telefonia e comunicação empresarial</p>
+            </div>
+            <div class="service-item">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2v11z" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="12" cy="13" r="4" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3>CFTV / Segurança</h3>
+                <p>Sistemas de monitoramento e segurança eletrônica</p>
+            </div>
+            <div class="service-item">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18" stroke="currentColor" stroke-width="2"/>
+                        <line x1="7" y1="2" x2="7" y2="22" stroke="currentColor" stroke-width="2"/>
+                        <line x1="17" y1="2" x2="17" y2="22" stroke="currentColor" stroke-width="2"/>
+                        <line x1="2" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="2"/>
+                        <line x1="2" y1="7" x2="7" y2="7" stroke="currentColor" stroke-width="2"/>
+                        <line x1="2" y1="17" x2="7" y2="17" stroke="currentColor" stroke-width="2"/>
+                        <line x1="17" y1="17" x2="22" y2="17" stroke="currentColor" stroke-width="2"/>
+                        <line x1="17" y1="7" x2="22" y2="7" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3>Automação</h3>
+                <p>Soluções em automação residencial e comercial</p>
+            </div>
+            <div class="service-item">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 19.5A2.5 2.5 0 016.5 22H20a2 2 0 002-2V6a2 2 0 00-2-2H6.5A2.5 2.5 0 004 6.5v13z" stroke="currentColor" stroke-width="2"/>
+                        <polyline points="9,9 12,12 22,2" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3>Informática Educacional</h3>
+                <p>Soluções tecnológicas para instituições de ensino</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="clients" id="clientes">
+    <div class="container">
+        <div class="section-header">
+            <h2>Nossos <strong>Clientes</strong></h2>
+            <p>Empresas que confiam em nossas soluções</p>
+        </div>
+        <div class="clients-logos">
+            <img src="public/galwan-company-logo.jpg" alt="Galwan" class="client-logo">
+            <img src="public/incaper-government-logo.jpg" alt="Incaper" class="client-logo">
+            <img src="public/sebrae-business-logo.jpg" alt="Sebrae" class="client-logo">
+            <img src="public/SANTA TEREZINHA.PNG" alt="Santa Terezinha" class="client-logo">
+            <img src="public/edp.PNG" alt="edp" class="client-logo">
+            <img src="public/petrobras.PNG" alt="petrobras" class="client-logo">
+            <img src="public/MedSenior.PNG" alt="MedSenior" class="client-logo">
+            <img src="public/SANTA MARIA.PNG" alt="Santa MARIA" class="client-logo">
+            <img src="public/rede de ensio DOCTUM.PNG" alt="rede de ensino DOCTUM" class="client-logo">
+            <img src="public/CESAN.PNG" alt="CESAN" class="client-logo">
+            <img src="public/eja.PNG" alt="eja" class="client-logo">
+            <img src="public/instituto federal espirto santo.PNG" alt="instituto federal espirito santo" class="client-logo">
+            <img src="public/prefeitura de vitoria.PNG" alt="prefeitura de vitoria" class="client-logo">
+        </div>
+    </div>
+</section>
+ 
+<section class="news-partners">
+    <div class="container">
+        <div class="content-grid">
+            <div class="news-section">
+                <h2>Últimas <strong>Notícias</strong></h2>
+                <article class="news-item">
+                    <h3>BULLYING - Deputada e administradora de eventos</h3>
+                    <p>Conversa com estudantes em Cachoeiro sobre os riscos do bullying digital através das redes sociais e como a tecnologia pode ser uma aliada na prevenção.</p>
+                    <span class="news-date">15 de Janeiro, 2024</span>
+                </article>
+                <article class="news-item">
+                    <h3>Transforme a internet em um aliado da Educação</h3>
+                    <p>Através de uma metodologia diferenciada, a Ventura Informática oferece soluções que auxiliam a estratégia educacional moderna.</p>
+                    <span class="news-date">10 de Janeiro, 2024</span>
+                </article>
+            </div>
+            <div class="partners-section">
+                <h2>Nossos <strong>Parceiros</strong></h2>
+                <div class="partners-logos">
+                    <img src="public/microsoft-logo.png" alt="Microsoft" class="partner-logo">
+                    <img src="public/ibm-logo.png" alt="IBM" class="partner-logo">
+                    <img src="public/dell-logo.jpg" alt="Dell" class="partner-logo">
+                    <img src="public/lenovo-logo.png" alt="Lenovo" class="partner-logo">
+                </div>
+                <a href="#contato" class="partners-link">Confira TODOS OS PARCEIROS</a>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+<section class="products" id="produtos">
+    <div class="container">
+        <div class="products-content">
+            <div class="products-image">
+                 <img src="public/modern-technology-products-display-computers-lapto.jpg" alt="Produtos Ventura" class="products-img">
+            </div>
+            <div class="products-text">
+                <h2>Muito mais que produtos...</h2>
+                <p>A Ventura Informática oferece soluções que fazem a diferença no seu negócio. Conte com o nosso suporte especializado para adquirir o produto correto na medida exata da sua necessidade.</p>
+                <div class="products-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>Diversos Produtos</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>Suporte completo</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>Atendimento Rapido</span>
+                    </div>
+                </div>
+                <a href="#contato" class="cta-button">ENTRE EM CONTATO CONOSCO</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Adicionando seção de contato -->
+<section class="contact" id="contato">
+    <div class="container">
+        <div class="section-header">
+            <h2>Entre em <strong>Contato</strong></h2>
+            <p>Estamos prontos para atender suas necessidades tecnológicas</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.92V18a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h1.09a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>Telefones</h4>
+                        <p>(27) 3299-1464 / 3264-1344</p>
+                        <p><a href="https://api.whatsapp.com/send?phone=552799126323">(27) 9912-6323</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2"/>
+                            <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>E-mail</h4>
+                        <p>vendas3@venturainformatica.com.br</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>Endereço</h4>
+                        <p>Rua sete - 560  cocal vila velha 29105770 ES</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="Logo-ventura-1-1.png" alt="Ventura Informática" class="footer-logo-img">
+            </div>
+            <div class="footer-text">
+                <p>© Copyright 2025, Ventura Informática. Desenvolvido Allan Simão. Todos os Direitos Reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+     
+<a href="https://api.whatsapp.com/send?phone=552799126323" target="_blank" class="whatsapp-float" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" class="whatsapp-icon">
+        <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.516z"/>
+    </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
