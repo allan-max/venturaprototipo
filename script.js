@@ -168,4 +168,29 @@ document.addEventListener("DOMContentLoaded", () => {
     section.style.transition = "opacity 0.8s ease, transform 0.8s ease"
     revealObserver.observe(section)
   })
+
+  function initClientsCarousel() {
+    const clientsLogos = document.querySelector(".clients-logos")
+    const clientsCarousel = document.querySelector(".clients-carousel")
+
+    if (window.innerWidth <= 768 && clientsCarousel) {
+      // Garantir que o carrossel funcione corretamente no mobile
+      clientsCarousel.style.animationDuration = "20s"
+
+      // Pausar animação ao tocar/hover no mobile
+      clientsLogos.addEventListener("touchstart", () => {
+        clientsCarousel.style.animationPlayState = "paused"
+      })
+
+      clientsLogos.addEventListener("touchend", () => {
+        clientsCarousel.style.animationPlayState = "running"
+      })
+    }
+  }
+
+  // Inicializar carrossel
+  initClientsCarousel()
+
+  // Reinicializar carrossel ao redimensionar janela
+  window.addEventListener("resize", initClientsCarousel)
 })
